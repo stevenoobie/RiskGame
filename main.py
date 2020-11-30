@@ -28,7 +28,7 @@ def main():
 
     screen = pygame.display.set_mode((1400, 750))
 
-    game_state = GameState.egypt
+    game_state = GameState.TITLE
     running=True
     while running:
 
