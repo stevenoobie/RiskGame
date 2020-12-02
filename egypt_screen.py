@@ -244,6 +244,7 @@ def egypt_screen(screen):
         for button in buttons:
             ui_action = button.update(pygame.mouse.get_pos(), mouse_up)
             # button.set_text(button.id)
+            #
             button.update_text(button.text, DARKBLUE)
             if ui_action is not None:
                 return ui_action
