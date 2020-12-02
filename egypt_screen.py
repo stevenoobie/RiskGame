@@ -18,7 +18,7 @@ def egypt_screen(screen):
         bg_rgb=BLUE,
         text_rgb=WHITE,
         text="Return to main menu",
-        id=0,
+        id="0",
         action=GameState.TITLE,
     )
 
