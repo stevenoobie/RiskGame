@@ -220,17 +220,6 @@ def egypt_screen(screen):
         id="eg22",
         action=None
     )
-
-    country_eg_23 = element.UIElement(
-        center_position=(1200, 425),
-        font_size=50,
-        bg_rgb=WHITE,
-        text_rgb=BLACK,
-        text="0",
-        id="eg23",
-        action=None
-    )
-
     buttons = [country_eg_1, country_eg_2, country_eg_3,
                country_eg_4, country_eg_5, country_eg_6,
                country_eg_7, country_eg_8, country_eg_9,
@@ -238,7 +227,7 @@ def egypt_screen(screen):
                country_eg_13, country_eg_14, country_eg_15,
                country_eg_16, country_eg_17, country_eg_18,
                country_eg_19, country_eg_20, country_eg_21,
-               country_eg_22, country_eg_23,return_btn]
+               country_eg_22,return_btn]
     image = pygame.image.load(r'assets\egyptmapgame.png')
 
 
